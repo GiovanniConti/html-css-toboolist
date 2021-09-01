@@ -6,6 +6,16 @@
 
 /* Stili Tag */
 
+main{
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+}
+
+ul{
+    list-style-type: none;
+    padding: 10px 40px;
+}
+
 /* Stili ID */
 
 #titoloTestata{
@@ -28,16 +38,21 @@
 }
 
 .contenitore{
-    background-color: rgb(240, 240, 240);
-    padding: 30px;
-}
-
-.bottoni{
     background-color: white;
     border-radius: 5px 5px 0 0;
     margin: auto;
     width: 70%;
+}
+
+.bottoni{
+    /* background-color: white;
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    width: 70%;
     padding: 10px 40px;
+    border-bottom: 2px solid rgb(240, 240, 240); */
+    padding: 10px 40px;
+    border-bottom: 2px solid rgb(240, 240, 240);
 
 }
 
@@ -48,4 +63,35 @@
     padding: 5px 10px;
     border-radius: 10%;
     border: 2px solid rgb(196, 196, 196);
+}
+
+.nomeSezione{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nomeTask{
+    
+}
+
+.check{
+    display: inline-block;
+    width: 21px;
+    text-align: center;
+    color: rgb(1, 156, 1);
+    border: 1px solid rgb(1, 156, 1);
+    border-radius: 50%;
+}
+
+.categoria{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 35%;
+    font-size: small;
+}
+
+.editorial{
+    background-color: deepskyblue;
 }
