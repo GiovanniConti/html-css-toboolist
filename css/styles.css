@@ -16,6 +16,10 @@ ul{
     padding: 10px 40px;
 }
 
+li{
+    margin: 15px 0;
+}
+
 /* Stili ID */
 
 #titoloTestata{
@@ -63,6 +67,7 @@ ul{
     padding: 5px 10px;
     border-radius: 10%;
     border: 2px solid rgb(196, 196, 196);
+    margin-right: 5px;
 }
 
 .nomeSezione{
@@ -83,6 +88,15 @@ ul{
     border-radius: 50%;
 }
 
+.croce{
+    display: inline-block;
+    width: 21px;
+    text-align: center;
+    color: tomato;
+    border: 1px solid tomato;
+    border-radius: 50%;
+}
+
 .categoria{
     display: inline-block;
     color: white;
@@ -94,4 +108,16 @@ ul{
 
 .editorial{
     background-color: deepskyblue;
+}
+
+.q1Goals{
+    background-color: purple;
+}
+
+.recruiting{
+    background-color:green;
+}
+
+.mobile{
+    background-color: orange;
 }
