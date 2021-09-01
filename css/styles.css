@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stili Tag */
+
+/* Stili ID */
+
+#titoloTestata{
+    font-size: 50px;
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: top;
+}
+
+/* Stili classi */
+
+.contenitoreTestata{
+    margin: 10px 30px;
+}
