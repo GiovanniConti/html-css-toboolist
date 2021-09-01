@@ -15,8 +15,37 @@
     vertical-align: top;
 }
 
+#bottoneBlu{
+    border-color: deepskyblue;
+    color: white;
+    background-color: deepskyblue;
+}
+
 /* Stili classi */
 
 .contenitoreTestata{
     margin: 10px 30px;
+}
+
+.contenitore{
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+}
+
+.bottoni{
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+    margin: auto;
+    width: 70%;
+    padding: 10px 40px;
+
+}
+
+.bottoneNavigazione{
+    color: rgb(196, 196, 196);
+    display: inline-block;
+    text-align: center;
+    padding: 5px 10px;
+    border-radius: 10%;
+    border: 2px solid rgb(196, 196, 196);
 }
